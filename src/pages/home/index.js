@@ -6,6 +6,7 @@ import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
 
 export const Home = () => {
+  const pofo = 'https://drive.google.com/file/d/14AwRNQ28vvH4u936eQ4DNH85PRV8nv--/view?usp=sharing';
   return (
     <HelmetProvider>
       <section id="home" className="home">
@@ -55,6 +56,17 @@ export const Home = () => {
                       <div className="ring three"></div>
                     </div>
                   </Link>
+                  {/* <Link to={pofo} className="text_2">
+                    
+                  </Link> */}
+                  <a href={pofo} target="_blank" className="text_2">
+                    <div id="button_p" className="ac_btn btn ">
+                      My Resume
+                      <div className="ring one"></div>
+                      <div className="ring two"></div>
+                      <div className="ring three"></div>
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
