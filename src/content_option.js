@@ -20,128 +20,168 @@ const dataabout = {
     aboutme: "I am a MERN Stack Web Developer. I love to build modern website using MERN approach.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
+    jobtitle: "Designer of week",
+    where: "YAdfi",
+    date: "2020",
+},
+{
+    jobtitle: "Designer of week",
+    where: "Jamalya",
+    date: "2019",
+},
+{
+    jobtitle: "Designer of week",
+    where: "ALquds",
+    date: "2019",
+},
 ];
 
 const skills = [{
-        name: "Python",
-        value: 90,
-    },
-    {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
-        value: 80,
-    },
-    {
-        name: "React",
-        value: 60,
-    },
-    {
-        name: "Jquery",
-        value: 85,
-    },
+    name: "Python",
+    value: 90,
+},
+{
+    name: "Djano",
+    value: 85,
+},
+{
+    name: "Javascript",
+    value: 80,
+},
+{
+    name: "React",
+    value: 60,
+},
+{
+    name: "Jquery",
+    value: 85,
+},
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
+    title: "UI & UX Design",
+    description: "Grinding with 1 years of knowledge. Have try to play with proper perfections.",
+},
+{
+    title: "Mobile Apps",
+    description: "Grinding with 1 years of knowledge. Have try to play with proper perfections. Try with React Native...",
+},
+{
+    title: "Wordpress Design",
+    description: "Grinding with 1 years of knowledge. Have try to play with proper perfections.",
+},
 ];
 
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
+// all portfolio instructions
+// portfolio changes starts here
+/* ----------------------------- */
+const dataportfolio = [
+    {
+        img: "./img/warehouse.jpeg",
         desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        link1: "https://warehouse-management-web-3fc33.web.app/", // live link
+        link2: "https://github.com/mdrakibmia99/warehouse-client", // github repo
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
+        img: "./img/warehouse.jpeg",
         desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        link1: "https://warehouse-management-web-3fc33.web.app/",
+        link2: "https://warehouse-management-web-3fc33.web.app/",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
+        img: "./img/warehouse.jpeg",
         desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        link1: "https://warehouse-management-web-3fc33.web.app/",
+        link2: "https://github.com/mdrakibmia99/warehouse-client",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
+        img: "./img/warehouse.jpeg",
         desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        link1: "https://warehouse-management-web-3fc33.web.app/",
+        link2: "https://warehouse-management-web-3fc33.web.app/",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
+        img: "./img/warehouse.jpeg",
         desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        link1: "https://warehouse-management-web-3fc33.web.app/",
+        link2: "https://github.com/mdrakibmia99/warehouse-client",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
+        img: "./img/warehouse.jpeg",
         desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        link1: "https://warehouse-management-web-3fc33.web.app/",
+        link2: "https://warehouse-management-web-3fc33.web.app/",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
+        img: "./img/warehouse.jpeg",
         desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        link1: "https://warehouse-management-web-3fc33.web.app/",
+        link2: "https://github.com/mdrakibmia99/warehouse-client",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
+        img: "./img/warehouse.jpeg",
         desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        link1: "https://warehouse-management-web-3fc33.web.app/",
+        link2: "https://warehouse-management-web-3fc33.web.app/",
     },
     {
-        img: "https://picsum.photos/400/550/?grayscale",
+        img: "./img/warehouse.jpeg",
         desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        link1: "https://warehouse-management-web-3fc33.web.app/",
+        link2: "https://github.com/mdrakibmia99/warehouse-client",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
+        img: "./img/warehouse.jpeg",
         desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        link1: "https://warehouse-management-web-3fc33.web.app/",
+        link2: "https://warehouse-management-web-3fc33.web.app/",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
+        img: "./img/warehouse.jpeg",
         desctiption: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        link1: "https://warehouse-management-web-3fc33.web.app/",
+        link2: "https://github.com/mdrakibmia99/warehouse-client",
+    },
+    {
+        img: "./img/warehouse.jpeg",
+        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+        link1: "https://warehouse-management-web-3fc33.web.app/",
+        link2: "https://warehouse-management-web-3fc33.web.app/",
+    },
+    {
+        img: "./img/warehouse.jpeg",
+        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+        link1: "https://warehouse-management-web-3fc33.web.app/",
+        link2: "https://github.com/mdrakibmia99/warehouse-client",
+    },
+    {
+        img: "./img/warehouse.jpeg",
+        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+        link1: "https://warehouse-management-web-3fc33.web.app/",
+        link2: "https://warehouse-management-web-3fc33.web.app/",
+    },
+    {
+        img: "./img/warehouse.jpeg",
+        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+        link1: "https://warehouse-management-web-3fc33.web.app/",
+        link2: "https://github.com/mdrakibmia99/warehouse-client",
+    },
+    {
+        img: "./img/warehouse.jpeg",
+        desctiption: "The wisdom of life consists in the elimination of non-essentials.",
+        link1: "https://warehouse-management-web-3fc33.web.app/",
+        link2: "https://warehouse-management-web-3fc33.web.app/",
     },
 ];
+/* -------------------------------------------------------------------------------------- */
 
 const contactConfig = {
     YOUR_EMAIL: "rkrakibhasan680@gmail.com",
     YOUR_FONE: "((880)1879-593667)",
     description: "I am a MERN Stack Web Developer. I love to build modern website using MERN approach.",
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_9hog93h",
+    YOUR_TEMPLATE_ID: "template_gbsx17b",
+    YOUR_USER_ID: "tvxNEk6Y4GFCtSQ91",
 };
 
 const socialprofils = {
